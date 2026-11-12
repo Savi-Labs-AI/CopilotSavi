@@ -1,0 +1,1285 @@
+{
+ "sections": [
+  {
+   "id": "descubre",
+   "num": "01",
+   "title": "Descubre Copilot",
+   "chunks": [
+    {
+     "heading": "Copilot trabaja contigo. Y ya lo tienes.",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "La inteligencia artificial ya forma parte de nuestro entorno de trabajo en SAVI."
+      },
+      {
+       "t": "p",
+       "x": "Con Microsoft 365 Copilot puedes encontrar información, resumir conversaciones, preparar documentos, analizar datos y aprovechar mejor tus reuniones utilizando las herramientas que ya conoces."
+      },
+      {
+       "t": "p",
+       "x": "**No necesitas ser experto en inteligencia artificial. Solo saber por dónde empezar.**"
+      }
+     ],
+     "key": "hero"
+    },
+    {
+     "heading": "¿Qué es Microsoft 365 Copilot?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Es un asistente de inteligencia artificial integrado en las aplicaciones de Microsoft 365 y disponible también desde su propia aplicación. Puede trabajar con el contexto de tu entorno profesional: correos, reuniones, conversaciones y documentos a los que tengas acceso, según las fuentes y funciones habilitadas."
+      }
+     ],
+     "key": "what"
+    },
+    {
+     "heading": "¿Qué puedes hacer con él?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Encontrar información.** Localiza conversaciones, decisiones y documentos relacionados con tus proyectos.\n*Ejemplo:* «¿Qué acordamos con este cliente sobre la próxima campaña?»"
+      },
+      {
+       "t": "p",
+       "x": "**Aprovechar mejor tus reuniones.** En Teams puedes transcribir reuniones cuando esté autorizado; Copilot puede utilizar la información disponible para resumir temas, identificar decisiones, organizar pendientes y preparar correos de seguimiento.\n*Ejemplo:* «Resume esta reunión comercial; identifica acuerdos, responsables y prepara un borrador de seguimiento»."
+      },
+      {
+       "t": "p",
+       "x": "**Resumir lo importante.** Convierte correos extensos, conversaciones y documentos en resúmenes claros.\n*Ejemplo:* «Resume este hilo y destaca los asuntos pendientes»."
+      },
+      {
+       "t": "p",
+       "x": "**Preparar contenido.** Crea borradores de emails, documentos, propuestas y presentaciones para revisar y personalizar.\n*Ejemplo:* «Prepara un correo de actualización de esta campaña»."
+      },
+      {
+       "t": "p",
+       "x": "**Analizar y explorar.** Compara resultados, identifica tendencias, investiga mercados y descubre posibles oportunidades.\n*Ejemplo:* «Compara los resultados de participación de estas semanas»."
+      }
+     ],
+     "key": "capabilities"
+    },
+    {
+     "heading": "¿Dónde puedes encontrar Copilot?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Aplicación Copilot:** abre [copilot.cloud.microsoft](https://copilot.cloud.microsoft/) con tu cuenta profesional de SAVI; verifica el acceso efectivo desde el entorno corporativo. También puede estar disponible como aplicación de escritorio."
+      },
+      {
+       "t": "p",
+       "x": "**Dentro de las aplicaciones:** Outlook, Teams, Word, Excel, PowerPoint y otras herramientas de Microsoft 365 incluyen experiencias de Copilot. Puedes solicitar ayuda mientras trabajas."
+      },
+      {
+       "t": "p",
+       "x": "¿No ves Copilot? Comprueba que hayas iniciado sesión con tu cuenta profesional y consulta a IT si sigue sin aparecer."
+      }
+     ],
+     "key": "where"
+    },
+    {
+     "heading": "¿Cómo se conecta con tu trabajo?",
+     "blocks": [
+      {
+       "t": "ul",
+       "items": [
+        "**Microsoft 365:** correos de Outlook, reuniones y conversaciones de Teams, archivos de OneDrive y SharePoint, según accesos y funcionalidades.",
+        "**Internet:** información pública para investigación, cuando la herramienta permita consultar la web.",
+        "**Lo que tú proporcionas:** documentos, texto, archivos y referencias concretas."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Importante:** Copilot no accede automáticamente a todo SAVI. Respeta los permisos corporativos, pero no corrige permisos mal configurados. En nuestra configuración actual no debemos considerar conectados automáticamente Salesforce, Jira u Offer Manager.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ],
+     "key": "connect"
+    },
+    {
+     "heading": "Copilot te ayuda. Tú decides.",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "La IA puede acelerar tareas, pero también puede equivocarse, omitir información o interpretar incorrectamente un dato. Antes de utilizar una respuesta con un cliente o tomar una decisión, comprueba las fuentes y revisa los resultados."
+      },
+      {
+       "t": "p",
+       "x": "**Copilot no sustituye tu experiencia ni tu criterio profesional. Los complementa.**"
+      }
+     ],
+     "key": "control"
+    },
+    {
+     "heading": "¿Por dónde quieres empezar?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Copilot en tu día a día:** aplicaciones, instrucciones y prompts.\n**Copilot en tu departamento:** casos reales relacionados con las funciones de tu equipo."
+      }
+     ],
+     "key": "start",
+     "targets": [
+      "dia",
+      "depto"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dia",
+   "num": "02",
+   "title": "Copilot en tu día a día",
+   "intro": {
+    "heading": "Las herramientas que ya utilizas, ahora con IA",
+    "blocks": [
+     {
+      "t": "p",
+      "x": "Copilot está integrado en distintas aplicaciones con las que trabajamos cada día en SAVI. Selecciona una aplicación para descubrir qué puedes hacer, cómo empezar y qué instrucciones probar. **Las pantallas y botones pueden variar según la versión disponible**."
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "copilot-app",
+     "name": "Copilot App",
+     "tagline": "Tu punto de entrada al trabajo conectado",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "La aplicación Microsoft 365 Copilot te permite hacer preguntas, crear contenido y recuperar información de diferentes herramientas desde un mismo lugar. Puedes encontrar un correo de Outlook, información relacionada con una reunión de Teams o un archivo de SharePoint sin tener que buscar en cada aplicación manualmente."
+      },
+      {
+       "t": "p",
+       "x": "**Qué puedes hacer**"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Buscar correos, documentos, conversaciones y reuniones disponibles para ti.",
+        "Recuperar acuerdos, fechas y tareas pendientes de una campaña.",
+        "Preparar reuniones con contexto y preguntas de descubrimiento.",
+        "Organizar prioridades a partir de compromisos documentados.",
+        "Redactar, traducir y transformar contenido; acceder a agentes e investigación."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar**"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "Abre Microsoft 365 Copilot con tu cuenta de SAVI.",
+        "Cuando busques información corporativa, utiliza el contexto de trabajo/Work IQ si ese control está disponible.",
+        "Indica cliente, proyecto y periodo; haz tu pregunta.",
+        "Consulta las fuentes antes de fiarte de los resultados."
+       ]
+      },
+      {
+       "t": "prompt",
+       "x": "Busca información relacionada con [campaña] durante los últimos 30 días en las fuentes de Microsoft 365 a las que tenga acceso. Resume acuerdos confirmados, tareas pendientes, responsables y fechas comprometidas. Incluye referencias a correos, reuniones o documentos. Si falta algún dato, indícalo.",
+       "title": "Recuperar información de una campaña"
+      },
+      {
+       "t": "prompt",
+       "x": "Voy a reunirme con [cliente]. Prepara un briefing con las interacciones recientes, acuerdos anteriores, preocupaciones expresadas, temas pendientes y cinco preguntas de descubrimiento. Separa hechos de sugerencias y cita las fuentes.",
+       "title": "Preparar reunión comercial"
+      },
+      {
+       "t": "prompt",
+       "x": "Revisa los compromisos y fechas documentados en mis correos y reuniones de esta semana. Propón prioridades, explica por qué y cita las fuentes. No supongas fechas ni responsabilidades.",
+       "title": "Organizar mis prioridades"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** si no encuentra algo, no significa que no exista. La respuesta depende de fuentes, permisos, indexación y configuración.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "outlook",
+     "name": "Outlook",
+     "tagline": "Menos tiempo gestionando correos",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot ayuda a comprender hilos, redactar respuestas, mejorar el tono, traducir comunicaciones, preparar reuniones y, en algunas versiones, priorizar mensajes nuevos."
+      },
+      {
+       "t": "p",
+       "x": "**Qué puedes hacer**"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Resumir una conversación extensa y extraer solicitudes y compromisos.",
+        "Redactar respuestas, nuevos correos y versiones más breves o formales.",
+        "Traducir mensajes, conservando nombres, cifras y condiciones.",
+        "Prepararte para reuniones a partir de calendario, correos y archivos disponibles.",
+        "Explorar «Priorizar mi bandeja de entrada» si IT lo habilitó; la clasificación se aplica a nuevos mensajes tras activar la función."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Cómo resumir un correo:** abre el hilo, selecciona la función de resumen de Copilot, lee los puntos y comprueba el contenido original cuando haya datos sensibles o compromisos."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo preparar una respuesta:** abre el mensaje, selecciona Responder y usa las herramientas de redacción de Copilot disponibles; explica intención y tono, inserta el borrador si procede y revísalo antes de enviar. La referencia automática al hilo varía por cliente y flujo: no asumir que siempre ocurre.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Resume este hilo. Identifica la solicitud original del cliente, nuestras respuestas, acuerdos confirmados, fechas y pendientes. Termina con próximas acciones. No confundas propuestas con compromisos confirmados.",
+       "title": "Resumir un hilo"
+      },
+      {
+       "t": "prompt",
+       "x": "Prepara una respuesta profesional y cercana para este cliente. Confirma recepción, explica lo que estamos revisando y señala solo los siguientes pasos ya acordados. No añadas compromisos ni plazos no confirmados.",
+       "title": "Redactar respuesta profesional"
+      },
+      {
+       "t": "prompt",
+       "x": "Haz este borrador más claro, convincente y orientado al valor para el cliente. Mantén todas las cifras y condiciones. Proporciona una versión breve y otra desarrollada; no inventes ventajas ni resultados.",
+       "title": "Mejorar un correo comercial"
+      },
+      {
+       "t": "prompt",
+       "x": "Traduce este mensaje al inglés con tono profesional natural. Conserva nombres, cifras, fechas y condiciones originales.",
+       "title": "Traducir"
+      },
+      {
+       "t": "p",
+       "x": "**Explora — Priorizar la bandeja:** «Considera prioritarios los mensajes que requieren acción sobre campañas activas, incidencias importantes, entregables de clientes o fechas límite próximas». Función condicionada a disponibilidad, no sustituye protocolos ni SLA.",
+       "role": "note",
+       "tone": "explore"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** comprueba destinatarios, cifras, fechas, condiciones y compromisos; tú eres responsable del envío.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "teams",
+     "name": "Teams",
+     "tagline": "Reuniones, chats, canales y agentes",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Teams reúne conversaciones, decisiones, archivos y coordinación. Copilot puede ayudar a recuperar información de chats e hilos de canales accesibles, apoyar reuniones y preparar seguimiento. **No significa que revise automáticamente todos los mensajes históricos de un canal**."
+      },
+      {
+       "t": "p",
+       "x": "**Qué puedes hacer**"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Preparar una reunión; ponerse al día si te incorporas tarde.",
+        "Consultar lo tratado durante una reunión y resumir decisiones.",
+        "Transcribir reuniones cuando esté autorizado, sin tener que grabar el vídeo.",
+        "Elaborar minutas, acciones, responsables y correos de seguimiento.",
+        "Resumir chats y hilos de canales accesibles.",
+        "Explorar agentes para canales cuando IT habilite la experiencia específica; no equiparar estos agentes con Agent Builder."
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "Caso principal: reunión comercial con un cliente"
+      },
+      {
+       "t": "p",
+       "x": "**1. Antes — prepara**: recupera acuerdos previos, preocupaciones del cliente y asuntos abiertos."
+      },
+      {
+       "t": "prompt",
+       "x": "Prepárame para mi próxima reunión con [cliente]. Resume acuerdos recientes, asuntos pendientes y compromisos documentados; sugiere puntos que conviene aclarar. Cita fuentes y separa recomendaciones de hechos."
+      },
+      {
+       "t": "p",
+       "x": "**2. Durante — escucha**: si está autorizado, inicia la transcripción desde controles de la reunión. Se puede consultar a Copilot durante ciertas reuniones incluso sin transcribirlas. La ubicación del menú y las funciones disponibles varían."
+      },
+      {
+       "t": "prompt",
+       "x": "Resume los temas tratados hasta ahora. Separa decisiones confirmadas, propuestas todavía abiertas y preguntas pendientes."
+      },
+      {
+       "t": "p",
+       "x": "**3. Después — convierte en acciones**: utiliza recap y contenido accesible, idealmente transcripción cuando necesites comprobar declaraciones concretas."
+      },
+      {
+       "t": "prompt",
+       "x": "Analiza esta reunión comercial. Resume temas, acuerdos confirmados, tareas, responsables, fechas y preguntas abiertas. Separa decisiones de propuestas. Si algo no se mencionó, indica «No especificado» y cita la evidencia disponible."
+      },
+      {
+       "t": "p",
+       "x": "**4. Seguimiento — correo**:"
+      },
+      {
+       "t": "prompt",
+       "x": "Redacta un email de seguimiento para [cliente] basado solo en acuerdos confirmados. Incluye agradecimiento, decisiones y próximos pasos; no añadas compromisos nuevos."
+      },
+      {
+       "t": "p",
+       "x": "**5. Inteligencia comercial — entiende las necesidades**:"
+      },
+      {
+       "t": "prompt",
+       "x": "Analiza esta reunión con [cliente] desde una perspectiva comercial. Identifica objetivos, pain points, frustraciones, necesidades expresadas, necesidades potenciales, oportunidades que convendría explorar y preguntas para la próxima reunión. Diferencia claramente hechos, inferencias e hipótesis. No afirmes que SAVI puede ofrecer una solución sin documentación de nuestro portfolio. Cita fragmentos de la reunión cuando sea posible."
+      },
+      {
+       "t": "prompt",
+       "x": "Resume los mensajes accesibles de este hilo de Customer Care. Identifica incidencias tratadas, soluciones confirmadas y temas pendientes. Cita los mensajes relevantes. No presupongas que tienes acceso a todas las conversaciones del canal.",
+       "title": "Explora — chats y canales"
+      },
+      {
+       "t": "prompt",
+       "x": "Acabo de incorporarme a esta reunión. ¿Qué decisiones se tomaron hasta ahora y qué puntos siguen abiertos?"
+      },
+      {
+       "t": "p",
+       "x": "**Explora — agentes de Teams:** cuando estén habilitados, los agentes específicos de canal pueden asistir en consultas y seguimientos; su disponibilidad y acciones dependen de IT. Profundizamos en la sección 04.",
+       "role": "note",
+       "tone": "explore"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** avisos y políticas de transcripción para clientes externos; un resumen no reemplaza acuerdos escritos. La transcripción no es un requisito universal para cualquier resumen, pero suele ser útil para comprobar lo hablado después.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "excel",
+     "name": "Excel",
+     "tagline": "De los datos a las conclusiones",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot en Excel puede ayudar a crear y explicar fórmulas, calcular variaciones, analizar tendencias, generar gráficos/tablas dinámicas y ordenar datos."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar:** abre un libro con datos claros y encabezados; selecciona Copilot; explica el cálculo o gráfico; revisa fórmulas, rangos y resultados.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "En esta tabla crea una columna que calcule la variación porcentual respecto al periodo anterior. Explícame la fórmula y cómo trata vacíos y divisiones entre cero.",
+       "title": "Fórmula de evolución"
+      },
+      {
+       "t": "prompt",
+       "x": "Compara participaciones de [mes A] y [mes B] por campaña. Calcula variación absoluta y porcentual, identifica cambios más relevantes y muestra una tabla resumen. Explica el método.",
+       "title": "Comparar campañas"
+      },
+      {
+       "t": "prompt",
+       "x": "Genera un gráfico de evolución semanal de participaciones por campaña usando esta tabla. Incluye título, ejes y leyenda legibles.",
+       "title": "Gráfico"
+      },
+      {
+       "t": "prompt",
+       "x": "Crea una tabla dinámica que agrupe participaciones por campaña y semana y muestre totales y variación entre periodos. Describe los campos utilizados.",
+       "title": "Tabla dinámica"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** verifica cada cálculo y la definición de los KPIs. El antiguo `=COPILOT()` de celdas se retiró en septiembre de 2026; esto no implica que Copilot en Excel haya desaparecido.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "word",
+     "name": "Word",
+     "tagline": "De información dispersa a documentos profesionales",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Crea borradores, resume, reorganiza, mejora textos, traduce documentos y utiliza fuentes disponibles de correos o reuniones para preparar contenido (según capacidades y accesos)."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar:** abre Word; solicita un nuevo documento o selecciona texto; proporciona fuentes y estructura; revisa el borrador.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "A partir de la información disponible de esta reunión comercial con [cliente], crea un documento con contexto, objetivos, acuerdos confirmados, necesidades expresadas, hipótesis comerciales, próximos pasos y responsables. No inventes compromisos; cita fuentes cuando estén disponibles.",
+       "title": "De reunión a briefing"
+      },
+      {
+       "t": "prompt",
+       "x": "Con este briefing aprobado, redacta un primer borrador de propuesta: contexto, objetivos, necesidades, solución propuesta, beneficios potenciales y próximos pasos. Marca [POR CONFIRMAR] donde falten precios, plazos, alcance o capacidades documentadas.",
+       "title": "Propuesta comercial"
+      },
+      {
+       "t": "prompt",
+       "x": "Revisa este procedimiento e identifica instrucciones ambiguas, pasos insuficientes y contradicciones. Indica sección y propuesta de mejora sin alterar las condiciones originales.",
+       "title": "Revisar procedimiento"
+      },
+      {
+       "t": "prompt",
+       "x": "Traduce esta sección al [idioma] usando terminología de marketing promocional. Conserva cifras, fechas, condiciones y formato. Señala términos dudosos para revisión humana.",
+       "title": "Traducir documento"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** contratos, bases legales y procedimientos oficiales requieren validación competente. Borrador no equivale a documento aprobado.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "powerpoint",
+     "name": "PowerPoint",
+     "tagline": "De documentos a presentaciones",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot puede generar primeras diapositivas, estructurar narrativas, aprovechar documentos existentes, resumir presentaciones y mejorar texto/diseño. Su resultado requiere edición y adaptación de marca."
+      },
+      {
+       "t": "h3",
+       "x": "Flujo destacado entre aplicaciones"
+      },
+      {
+       "t": "p",
+       "x": "**Outlook o Teams → resumen verificado → Word/briefing → PowerPoint**. Las reuniones y correos pueden aportar el contexto; no prometer que cualquier transcripción se convierte automáticamente en presentación con un clic."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar:** abre PowerPoint; selecciona la creación con Copilot; referencia un documento aprobado o describe objetivo y público; revisa y adapta.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Crea una presentación de ocho diapositivas basada en este documento aprobado: contexto del cliente, objetivos, desafíos, oportunidades, solución, beneficios potenciales, próximos pasos y conclusión. No inventes cifras ni prestaciones.",
+       "title": "Presentación comercial"
+      },
+      {
+       "t": "prompt",
+       "x": "Transforma este informe en seis diapositivas ejecutivas con objetivos, mecánica, principales KPIs, evolución, aprendizajes y recomendaciones. Utiliza solo los datos documentados y gráficos cuando aporten claridad.",
+       "title": "Resultados de campaña"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** confirmar narrativa, contenido, cifras y branding antes de presentar a clientes.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "sharepoint",
+     "name": "SharePoint",
+     "tagline": "Busca y organiza contenidos compartidos",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Permite consultar contenido y, según configuración y permisos, crear o gestionar archivos y algunos elementos de SharePoint. En SAVI ya se mostró una demostración de crear/mover archivos; eso no implica disponibilidad universal."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar:** entra al sitio/biblioteca correspondiente; comprueba si aparece Copilot; especifica tu consulta; pide una propuesta antes de aplicar cambios.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Busca en este espacio los documentos de [campaña]: briefing, propuesta aprobada, bases e informes. Indica qué versiones encuentras y referencias, sin asumir que la más reciente es la oficialmente vigente.",
+       "title": "Encontrar documentación"
+      },
+      {
+       "t": "prompt",
+       "x": "Revisa esta biblioteca y propone una estructura por tipo de documento. Enumera qué moverías y a dónde. No apliques cambios hasta que yo confirme.",
+       "title": "Reorganizar sin modificar todavía"
+      },
+      {
+       "t": "prompt",
+       "x": "Propón la estructura inicial de la carpeta [proyecto]: briefing, propuesta, legal, entregables y reporting. Muéstrame el plan antes de crear o mover archivos.",
+       "title": "Estructura de carpetas"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** renombrar o mover recursos compartidos afecta a compañeros y procesos; verificar permisos y dependencias.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "onedrive",
+     "name": "OneDrive",
+     "tagline": "Resume y compara archivos",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Permite resumir documentos, preguntar sobre ellos y **comparar hasta cinco archivos seleccionados**, cuando la experiencia sea compatible y accesible."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar:** selecciona documentos; abre las funciones de Copilot disponibles en OneDrive o referencia los archivos desde Copilot App; consulta y comprueba las fuentes.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Compara estos documentos en fechas, elegibilidad, mecánica, premios, límites, obligaciones y excepciones. Genera una tabla con tema, versión A, versión B, posible impacto y referencia al documento/sección. No decidas cuál es la versión oficial sin evidencia.",
+       "title": "Comparación de bases promocionales"
+      },
+      {
+       "t": "prompt",
+       "x": "Resume este documento: objetivo, requisitos, condiciones, excepciones y puntos de control. No añadas información inexistente.",
+       "title": "Resumir documento"
+      },
+      {
+       "t": "p",
+       "x": "**Ten en cuenta:** comparar versiones no determina por sí mismo cuál está oficialmente aprobada.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "depto",
+   "num": "03",
+   "title": "Copilot en tu departamento",
+   "intro": {
+    "heading": null,
+    "blocks": [
+     {
+      "t": "p",
+      "x": "Cada equipo tiene tareas diferentes. Elige tu departamento, explora ejemplos y adapta los prompts a tus proyectos. Aquí mostramos **casos aplicados**, no repetimos tutoriales de interfaz."
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "comercial",
+     "name": "Comercial",
+     "tagline": "De las conversaciones a las oportunidades",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot puede ayudarte a conocer al cliente, investigar su mercado, analizar pain points y formular hipótesis comerciales. Su valor no es solo la productividad, sino la mejor preparación para descubrir oportunidades de valor."
+      },
+      {
+       "t": "h3",
+       "x": "Caso destacado — Reunión → oportunidad → propuesta"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "**Prepara (Copilot App / Outlook):** recupera historial, acuerdos, preocupaciones y preguntas pendientes.",
+        "**Escucha y comprende (Teams):** utiliza transcripción cuando esté autorizada, identifica objetivos, problemas y objeciones.",
+        "**Detecta (Copilot App / Researcher):** separa necesidades explícitas de hipótesis; investiga si es necesario.",
+        "**Propone (Word):** elabora un briefing y relaciona oportunidades con servicios reales de SAVI documentados.",
+        "**Presenta (PowerPoint):** convierte el briefing revisado en diapositivas y prepara el seguimiento."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Ejemplo conceptual:** si un cliente dice que no sabe si sus consumidores repiten compra, la necesidad de medir recurrencia está respaldada; una mecánica de loyalty podría ser hipótesis comercial, no solución confirmada. Investigar antes de proponer.",
+       "role": "note",
+       "tone": "example"
+      },
+      {
+       "t": "p",
+       "x": "Del análisis de competidores a la estrategia, pasando por lo que dice el cliente."
+      },
+      {
+       "t": "card",
+       "title": "Investigar un prospecto",
+       "app": "Researcher",
+       "x": "Investiga [empresa] para preparar una posible colaboración en marketing promocional y fidelización. Incluye perfil, principales marcas, iniciativas recientes, hechos respaldados por fuentes y posibles oportunidades. Separa claramente hipótesis de necesidades confirmadas.",
+       "tip": "Una hipótesis comercial no es una necesidad confirmada."
+      },
+      {
+       "t": "card",
+       "title": "Briefing de reunión",
+       "app": "Chat",
+       "x": "Voy a reunirme con [cliente]. Reúne el contexto disponible de nuestra relación: antecedentes, acuerdos, preocupaciones expresadas, temas pendientes y cinco preguntas de descubrimiento. Cita las fuentes. Separa hechos de recomendaciones.",
+       "tip": "Pide siempre las citas."
+      },
+      {
+       "t": "card",
+       "title": "Buscar y comparar competidores",
+       "app": "Researcher",
+       "x": "Investiga los competidores relevantes de [empresa] en [mercado], sus iniciativas recientes de promoción y fidelización y diferencias de posicionamiento. Presenta una tabla con fuentes y fechas; separa datos comprobados de tus inferencias.",
+       "tip": "Contrasta las fuentes que cita antes de usarlo en una propuesta."
+      },
+      {
+       "t": "card",
+       "title": "Mejorar un correo para el cliente",
+       "app": "Outlook",
+       "x": "Mejora este correo para [cliente]: hazlo claro, cercano y orientado al valor. Conserva cifras, condiciones y fechas. Propón una versión corta y otra desarrollada; no inventes beneficios ni compromisos.",
+       "tip": "Comprueba que el tono encaja con la relación que tienes con el cliente."
+      },
+      {
+       "t": "card",
+       "title": "Detectar necesidades del cliente",
+       "app": "Teams / Chat",
+       "x": "Analiza la transcripción disponible de la reunión con [cliente]. Identifica objetivos, pain points, objeciones, necesidades expresadas y necesidades potenciales. Para cada punto aporta evidencia o marca [HIPÓTESIS]. Señala también lo que debemos validar con el cliente.",
+       "tip": "Funciona mejor si las reuniones se transcribieron. Una necesidad deducida hay que confirmarla con el cliente."
+      },
+      {
+       "t": "card",
+       "title": "Crear una estrategia a partir de las conversaciones",
+       "app": "Chat / Researcher",
+       "x": "A partir de necesidades documentadas de [cliente] y fuentes externas relevantes, propone tres líneas comerciales que podríamos explorar. Para cada una: problema, evidencia, posible respuesta de SAVI solo si está documentada en nuestro portfolio, riesgos y preguntas pendientes. Separa hechos e hipótesis.",
+       "tip": "Es un punto de partida para pensar, no una estrategia cerrada. Valídala con tu equipo."
+      },
+      {
+       "t": "card",
+       "title": "Primer borrador de propuesta",
+       "app": "Word",
+       "x": "Con el briefing comercial aprobado, redacta un borrador de propuesta en Word: contexto, objetivos, necesidades, solución, beneficios potenciales y próximos pasos. No inventes precios ni plazos; usa [POR CONFIRMAR] donde falte información.",
+       "tip": "Revisa alcance y precio."
+      },
+      {
+       "t": "card",
+       "title": "De documento a presentación",
+       "app": "PowerPoint",
+       "x": "Transforma este documento aprobado en ocho diapositivas comerciales conectando problemas del cliente con soluciones documentadas de SAVI. No inventes datos, resultados ni testimonios.",
+       "tip": "Revisa marca y cifras."
+      }
+     ]
+    },
+    {
+     "id": "customer-success",
+     "name": "Customer Success",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Menos tiempo leyendo hilos, más tiempo con el cliente."
+      },
+      {
+       "t": "card",
+       "title": "Revisar hilos largos",
+       "app": "Outlook",
+       "x": "Resume este hilo en petición del cliente, nuestra respuesta, compromisos, pendientes y próxima acción.",
+       "tip": "Comprueba el compromiso contra el email."
+      },
+      {
+       "t": "card",
+       "title": "Preparar la reunión con el cliente",
+       "app": "Outlook / Chat",
+       "x": "Reconstruye el contexto de [cliente] de los últimos 30 días con fuentes: decisiones, tareas abiertas y asuntos sin resolver.",
+       "tip": "Depende de tus permisos y contenido disponible."
+      },
+      {
+       "t": "card",
+       "title": "Minuta con acciones",
+       "app": "Teams",
+       "x": "A partir de los contenidos accesibles de esta reunión, crea una minuta con decisiones confirmadas, tareas, responsable y fecha. Escribe «No especificado» cuando falte alguno e incluye evidencia o referencia disponible.",
+       "tip": "Para consultar después lo dicho con precisión, utiliza una transcripción disponible cuando esté autorizada; las opciones dependen de la configuración de Teams."
+      },
+      {
+       "t": "card",
+       "title": "Estado de campaña",
+       "app": "Notebook",
+       "x": "A partir exclusivamente de las fuentes disponibles de [campaña], prepara un estado de campaña con avances, decisiones, incidencias, pendientes y contradicciones, citando los documentos. No sustituyas los sistemas oficiales de reporting.",
+       "tip": "No sustituye la herramienta oficial de seguimiento."
+      }
+     ]
+    },
+    {
+     "id": "customer-care-call-center",
+     "name": "Customer Care / Call Center",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Asistencia al agente, no respuesta automática al consumidor."
+      },
+      {
+       "t": "card",
+       "title": "Preparar respuesta al consumidor",
+       "app": "Chat / Agente",
+       "x": "El consumidor pregunta: «[consulta]». Busca únicamente en la documentación aprobada de la promoción [X]. Indica la respuesta aplicable, cita la condición exacta y señala cualquier dato que deba confirmar antes de responder. No inventes excepciones.",
+       "tip": "Sin datos personales del consumidor en el prompt."
+      },
+      {
+       "t": "card",
+       "title": "Condiciones de una promoción",
+       "app": "Chat",
+       "x": "Según las condiciones de [promoción], prepara una respuesta al consumidor. Cita la cláusula y señala qué datos faltan.",
+       "tip": "Revisa tono y datos personales."
+      },
+      {
+       "t": "card",
+       "title": "Resumir una reclamación",
+       "app": "Outlook",
+       "x": "Resume esta reclamación: motivo, historial, lo que pide el consumidor y qué debería escalarse.",
+       "tip": "Las reclamaciones se escalan según el protocolo."
+      },
+      {
+       "t": "card",
+       "title": "Seguimiento de incidencias en Teams",
+       "app": "Teams",
+       "x": "Resume los mensajes accesibles de este hilo de Customer Care, identificando incidencias, soluciones confirmadas y temas pendientes. Cita los mensajes relevantes; no asumas que tienes todo el canal.",
+       "tip": "Hilo accesible ≠ histórico completo del canal."
+      },
+      {
+       "t": "card",
+       "title": "Explorar estadísticas de buzón",
+       "app": "Copilot App / Agente",
+       "x": "Para el buzón [buzón] y el periodo [fechas], identifica qué volumen, asuntos recurrentes y datos puedes comprobar con las fuentes disponibles. Separa cifras verificadas de métricas que requerirían extracción completa. No calcules SLA, backlog ni tiempos de respuesta sin datos y metodología suficientes.",
+       "tip": "Para métricas oficiales hacen falta definiciones y registros completos."
+      }
+     ]
+    },
+    {
+     "id": "operaciones-y-validacion",
+     "name": "Operaciones y Validación",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Los casos más seguros: recuperar procedimientos y comparar versiones."
+      },
+      {
+       "t": "card",
+       "title": "Condiciones de validez",
+       "app": "Chat / Word",
+       "x": "Según exclusivamente los documentos proporcionados, indica qué condiciones debe cumplir una participación para ser válida. Para cada condición cita documento y sección. Si dos fuentes se contradicen, no elijas una: señala la contradicción.",
+       "tip": "Nunca le pidas que «decida» si es válida sin decir qué documento manda."
+      },
+      {
+       "t": "card",
+       "title": "Comparar versiones de bases",
+       "app": "OneDrive",
+       "x": "Compara estos documentos solo en condiciones, plazos, excepciones y responsabilidades.",
+       "tip": "Comprueba la vigencia de cada versión."
+      },
+      {
+       "t": "card",
+       "title": "Estructurar una incidencia",
+       "app": "Chat",
+       "x": "Ordena esta incidencia en: qué ocurre, a quién afecta, procedimiento aplicable (con fuente) y siguiente paso. Indica qué datos faltan.",
+       "tip": "Copilot propone; la decisión es tuya."
+      },
+      {
+       "t": "card",
+       "title": "Agente de procedimientos",
+       "app": "Agente (futuro)",
+       "x": "Responde exclusivamente con procedimientos vigentes y aprobados proporcionados. Cita documento y sección. Si falta información o hay contradicciones, recomienda escalar sin decidir por tu cuenta.",
+       "tip": "Solo con versionado y permisos resueltos."
+      }
+     ]
+    },
+    {
+     "id": "finanzas-y-administracion",
+     "name": "Finanzas y Administración",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot acelera el análisis; los controles contables siguen siendo tuyos."
+      },
+      {
+       "t": "card",
+       "title": "Presupuesto vs real",
+       "app": "Excel",
+       "x": "Compara presupuesto y real por categoría. Calcula desviación absoluta y porcentual. Ordena por impacto económico. Muéstrame las fórmulas o el razonamiento antes de redactar conclusiones.",
+       "tip": "El libro y sus fórmulas son la fuente de auditoría."
+      },
+      {
+       "t": "card",
+       "title": "Posibles duplicados",
+       "app": "Excel",
+       "x": "Busca registros potencialmente duplicados usando [campos]. No elimines nada: crea una lista para revisión.",
+       "tip": "Siempre una lista para revisar, nunca borrado automático."
+      },
+      {
+       "t": "card",
+       "title": "Anomalías mensuales",
+       "app": "Analyst",
+       "x": "Analiza la evolución mensual y señala valores atípicos. Distingue un dato atípico estadístico de un error confirmado.",
+       "tip": "No lo uses como control financiero final."
+      }
+     ]
+    },
+    {
+     "id": "direccion-y-responsables",
+     "name": "Dirección y responsables",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Síntesis de varias fuentes para decidir con evidencia."
+      },
+      {
+       "t": "card",
+       "title": "Resumen ejecutivo",
+       "app": "Chat",
+       "x": "Prepárame un resumen ejecutivo de [proyecto/cliente]. Máximo 400 palabras. Incluye estado, decisiones recientes, riesgos, bloqueos, próximas fechas y decisiones que requieren mi intervención. Distingue hechos de inferencias y da fuentes.",
+       "tip": "Revisa si hay omisiones."
+      },
+      {
+       "t": "card",
+       "title": "Decisión con evidencia",
+       "app": "Researcher",
+       "x": "Analiza [decisión] usando fuentes internas y externas por separado. Incluye argumentos a favor, en contra, incertidumbres y evidencia que falta.",
+       "tip": "Valora la calidad de las fuentes."
+      },
+      {
+       "t": "card",
+       "title": "Seguimiento de planes",
+       "app": "Planner",
+       "x": "Muéstrame tareas de esta semana, prioridades y tareas sin responsable o fecha. No modifiques nada.",
+       "tip": "Pide «no modifiques nada» si solo quieres consultar."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas",
+   "num": "04",
+   "title": "Lleva Copilot más allá",
+   "intro": {
+    "heading": "Descubre nuevas posibilidades",
+    "blocks": [
+     {
+      "t": "p",
+      "x": "Además de tareas cotidianas, Copilot incluye capacidades para investigar, analizar, trabajar con fuentes de proyectos y configurar asistentes especializados. **No todas son automaciones ni están habilitadas para todos los usuarios.**"
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "researcher",
+     "name": "Researcher",
+     "tagline": "De una pregunta a un informe de investigación",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Researcher/Investigador ayuda a consultar diferentes fuentes, relacionar información y redactar informes estructurados con referencias. Puede resultar valioso para prospectos, estudios de mercado, competidores y tendencias promocionales."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar:** abre Microsoft 365 Copilot, localiza Researcher entre las herramientas/agentes disponibles, define objetivo, alcance y fechas, añade fuentes si procede; revisa citas y conclusiones.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Investiga tendencias recientes de fidelización y promociones al consumidor en el mercado español de gran consumo. El objetivo es explorar oportunidades para SAVI. Incluye tendencias, campañas recientes, estrategias de marcas, desafíos, oportunidades hipotéticas y preguntas para Comercial. Usa fuentes recientes y verificables y separa hechos, datos internos e interpretaciones.",
+       "title": "Investigación comercial"
+      },
+      {
+       "t": "p",
+       "x": "**De investigación a material visual:** aprovecha el informe, una vez comprobado, para crear un documento, presentación o infografía mediante las herramientas de creación de Copilot disponibles. No asegurar que sea un botón dentro del propio Researcher."
+      },
+      {
+       "t": "p",
+       "x": "**Precaución:** los informes estructurados también pueden incluir citas incorrectas, fuentes desactualizadas o inferencias insuficientes.",
+       "role": "callout",
+       "tone": "warn"
+      }
+     ]
+    },
+    {
+     "id": "analyst",
+     "name": "Analyst",
+     "tagline": "Del Excel a los insights",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Analyst/Analista ayuda a explorar archivos con datos, comparar periodos, calcular tendencias y detectar anomalías."
+      },
+      {
+       "t": "p",
+       "x": "**Cómo empezar:** localiza Analyst en Copilot, aporta los archivos, define KPIs, periodo y método de análisis; comprueba cálculos y comparabilidad.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Analiza estos archivos semanales de campañas. Primero comprueba que campos y periodos sean comparables. Calcula evolución de participaciones, identifica mayores crecimientos y descensos, detecta valores atípicos, crea una tabla y sugiere gráficos. Separa datos observados de posibles explicaciones. No inventes causas.",
+       "title": "Resultados de campaña"
+      },
+      {
+       "t": "p",
+       "x": "**Precaución:** no sustituye reporting oficial; los KPI deben tener definiciones comunes.",
+       "role": "callout",
+       "tone": "warn"
+      }
+     ]
+    },
+    {
+     "id": "notebooks",
+     "name": "Notebooks",
+     "tagline": "Un espacio para cada proyecto",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Un Notebook/Cuaderno permite reunir referencias específicas —briefing, propuesta aprobada, bases, actas, reporting— para consultas centradas en ese proyecto. La continuidad depende de las fuentes añadidas y disponibles; no significa acceso irrestricto a todos los sistemas."
+      },
+      {
+       "t": "prompt",
+       "x": "Utiliza solo las referencias de este Notebook de [campaña]. Resume decisiones confirmadas, avances, asuntos pendientes y contradicciones. Cita cada fuente y señala lo que falta confirmar.",
+       "title": "Prompt"
+      }
+     ]
+    },
+    {
+     "id": "pages",
+     "name": "Pages",
+     "tagline": "Del chat a contenido editable",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot Pages permite conservar una respuesta para editarla y compartirla en un espacio colaborativo. Por ejemplo, convertir las conclusiones revisadas de una investigación comercial en un documento de trabajo para el equipo."
+      }
+     ]
+    },
+    {
+     "id": "planner",
+     "name": "Planner",
+     "tagline": "Tareas y seguimiento",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Las funciones de Planner y sus agentes varían por plan, licencia y configuración. No confundir agente de Planner en Copilot con las experiencias integradas en Planner."
+      },
+      {
+       "t": "prompt",
+       "x": "Muéstrame las tareas de alta prioridad de esta semana en los planes de Planner a los que tengo acceso. Señala vencimientos, tareas pendientes y bloqueos. No hagas modificaciones.",
+       "title": "Prompt"
+      }
+     ]
+    },
+    {
+     "id": "agentes",
+     "name": "Agentes",
+     "tagline": "Configura un asistente especializado",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Un agente personalizado incorpora instrucciones, objetivos y fuentes definidos para ayudar con tareas repetidas. Puede ofrecer formatos más consistentes, **pero no garantiza respuestas idénticas ni correctas**. Agent Builder es diferente de Copilot Studio y de los agentes específicos de canal."
+      },
+      {
+       "t": "h3",
+       "x": "¿Cuándo conviene crear un agente?"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Tarea repetida con criterios estables.",
+        "Consultas frecuentes sobre la misma documentación aprobada.",
+        "Respuestas estructuradas para un equipo.",
+        "Preparación de minutas, briefings o borradores consistentes."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "Para una consulta puntual, Copilot Chat suele ser suficiente."
+      },
+      {
+       "t": "h3",
+       "x": "Ideas de agentes SAVI"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "**Commercial Meeting Insights Assistant:** analiza reuniones, pain points, hipótesis y seguimiento.",
+        "**Asistente de procedimientos de Customer Care:** consulta bases y prepara borradores con referencias.",
+        "**Asistente de estado de campañas:** estructura resúmenes con documentos de proyecto.",
+        "**Asistente de minutas:** decisiones, acciones, responsables y fechas.",
+        "**Asistente de documentación:** busca información en políticas y manuales.",
+        "**Asistente de correos profesionales:** utiliza un formato y tono definidos."
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "Cómo crear tu primer agente con Agent Builder"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "Abre Microsoft 365 Copilot y busca crear/nuevo agente (si aparece en tu entorno).",
+        "Define una tarea concreta: «analizar reuniones comerciales» en lugar de «ayudarme en todo».",
+        "Escribe instrucciones sobre objetivos, fuentes, formato, límites y cuándo indicar falta de información; añade solo documentos autorizados y vigentes.",
+        "Prueba al menos cinco situaciones representativas, incluidos casos ambiguos y contradictorios; verifica fuentes y salida.",
+        "Guarda y comparte únicamente con usuarios autorizados. Comprueba por separado los permisos del agente y de los documentos asociados."
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "Agente de ejemplo — Commercial Meeting Insights Assistant"
+      },
+      {
+       "t": "p",
+       "x": "**Objetivo:** apoyar al equipo Comercial en la interpretación de reuniones, detección de necesidades y preparación de seguimiento, sin inventar hechos.",
+       "role": "note",
+       "tone": "accent"
+      },
+      {
+       "t": "prompt",
+       "x": "Eres un asistente de análisis de reuniones comerciales para SAVI, empresa de soluciones de marketing promocional y fidelización. Cuando el usuario proporcione una transcripción, notas o referencias accesibles: (1) identifica contexto y objetivos; (2) resume necesidades expresadas; (3) identifica pain points y objeciones; (4) distingue necesidades explícitas de hipótesis potenciales; (5) explora oportunidades comerciales solo si existe documentación suficiente del portfolio SAVI; (6) enumera acuerdos confirmados; (7) propone próximos pasos y preguntas de seguimiento. Devuelve siempre: Resumen ejecutivo; Objetivos del cliente; Pain points; Necesidades potenciales; Oportunidades a explorar; Acuerdos; Próximas acciones y responsables; Preguntas para próxima reunión. Cita fuentes disponibles y separa HECHO CONFIRMADO, INFERENCIA e HIPÓTESIS. No inventes fechas, acuerdos, necesidades, responsables ni capacidades de SAVI. Cuando falte información, indica «POR CONFIRMAR».",
+       "title": "Instrucciones completas para copiar en el creador del agente"
+      },
+      {
+       "t": "p",
+       "x": "**Uso posterior:** «Analiza esta reunión con [cliente] y prepara el informe comercial siguiendo tus instrucciones». El agente necesita acceso autorizado a las fuentes; no se asume que pueda leer automáticamente cualquier reunión.",
+       "role": "note",
+       "tone": "accent"
+      },
+      {
+       "t": "h3",
+       "x": "Agentes en Teams y canales"
+      },
+      {
+       "t": "p",
+       "x": "Existen experiencias específicas de agentes para canales de Teams que pueden apoyar consultas y seguimiento donde estén habilitadas. **No afirmar que cualquier Agent Builder puede instalarse en cualquier canal o automatizar tareas de Customer Care**; comprobar disponibilidad y permisos con IT."
+      },
+      {
+       "t": "h3",
+       "x": "¿Puede automatizar cualquier tarea?"
+      },
+      {
+       "t": "p",
+       "x": "No. Una cosa es reutilizar instrucciones y fuentes y otra ejecutar acciones, disparar flujos, integrar datos o modificar aplicaciones externas. Para integraciones avanzadas puede requerirse Copilot Studio, conectores, licencias adicionales e intervención de IT. No considerar conectados Salesforce, Jira ni Offer Manager por defecto."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aprende",
+   "num": "05",
+   "title": "Aprende a utilizarlo bien",
+   "intro": {
+    "heading": "Los mejores resultados empiezan con buenas instrucciones",
+    "blocks": [
+     {
+      "t": "p",
+      "x": "No necesitas conocer cientos de prompts. Lo importante es explicar qué quieres, aportar contexto y verificar la respuesta."
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "como-escribir-un-buen-prompt",
+     "name": "Cómo escribir un buen prompt",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "ul",
+       "items": [
+        "**Objetivo:** qué quieres conseguir.",
+        "**Contexto:** cliente, proyecto, periodo y destinatario.",
+        "**Fuentes:** qué correo, reunión, documento o conjunto de archivos utilizar.",
+        "**Instrucciones:** qué identificar, priorizar y evitar.",
+        "**Formato:** tabla, resumen, lista, email, presentación.",
+        "**Verificación:** citas, distinción entre hechos e hipótesis y vacíos de información."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "No todos los prompts necesitan todos los elementos."
+      },
+      {
+       "t": "p",
+       "x": "**Poco específico:** «Resume esta reunión».",
+       "role": "compare"
+      },
+      {
+       "t": "prompt",
+       "x": "Necesito preparar el seguimiento de esta reunión comercial con [cliente]. Utiliza la transcripción accesible e identifica acuerdos confirmados, tareas, responsables y fechas. Devuelve una tabla. Separa decisiones de propuestas abiertas. Si no hay responsable o fecha, escribe «No especificado». Cita referencias cuando estén disponibles.",
+       "title": "Mejorado"
+      }
+     ]
+    },
+    {
+     "id": "no-te-quedes-con-la-primera-respuesta",
+     "name": "No te quedes con la primera respuesta",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Utiliza Copilot de forma conversacional: resume, pide profundización, cuestiona hipótesis y transforma el resultado en un entregable."
+      },
+      {
+       "t": "p",
+       "x": "**Ejemplo de iteración comercial:**",
+       "role": "note",
+       "tone": "example"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "«Resume las conclusiones de esta reunión».",
+        "«Ahora identifica pain points y necesidades que deberíamos investigar».",
+        "«Separa necesidades confirmadas de hipótesis y propone cinco preguntas».",
+        "«Transforma las conclusiones verificadas en un briefing para mi equipo»."
+       ],
+       "role": "convo"
+      },
+      {
+       "t": "p",
+       "x": "**Frases útiles:** «Cita la fuente», «Separa hechos de recomendaciones», «Si falta información, indícalo», «Identifica contradicciones», «No inventes cifras ni compromisos», «Explícame el cálculo», «¿Qué podría estar pasando por alto?». Estas frases **reducen riesgos, no garantizan precisión**.",
+       "role": "phrases"
+      }
+     ]
+    },
+    {
+     "id": "utiliza-la-informacion-de-forma-responsable",
+     "name": "Utiliza la información de forma responsable",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Microsoft 365 Copilot cuenta con protección de datos empresarial. Microsoft señala que las solicitudes, respuestas e información corporativa asociada no se utilizan para entrenar los modelos fundacionales. **Esto no equivale a ausencia de registros**: las interacciones pueden estar sujetas a auditoría, retención y controles corporativos."
+      },
+      {
+       "t": "p",
+       "x": "Copilot respeta permisos de Microsoft 365, pero no corrige documentos que se hayan compartido demasiado ampliamente. Debes seguir las políticas de confidencialidad y privacidad de SAVI."
+      },
+      {
+       "t": "h3",
+       "x": "Semáforo orientativo — PENDIENTE DE VALIDAR CON IT/DPO",
+       "pending": true
+      },
+      {
+       "t": "p",
+       "x": "**Verde:** información laboral ordinaria para la que el tratamiento esté autorizado.\n**Ámbar:** información comercial confidencial, financiera, contractual o datos personales de consumidores; utilizar solo para una finalidad autorizada, con minimización y controles.\n**Rojo:** contraseñas, credenciales y cualquier información o tratamiento no autorizado; no introducir datos excesivos ni divulgar información de terceros.",
+       "tl": [
+        "g",
+        "a",
+        "r"
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Aviso obligatorio:** este semáforo es una guía provisional para formación, **no una política corporativa aprobada**. Hasta que IT/DPO lo valide, no presentarlo como norma oficial ni sugerir que todo documento «verde» está automáticamente autorizado.",
+       "role": "callout",
+       "tone": "warn"
+      },
+      {
+       "t": "p",
+       "x": "**Compartir resultados:** antes de distribuir un documento o informe, comprueba que no contiene información de otros clientes, proyectos o personas ajenas a los destinatarios."
+      }
+     ]
+    },
+    {
+     "id": "verifica-antes-de-confiar",
+     "name": "Verifica antes de confiar",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Invención:** aporta algo no respaldado por la fuente.\n**Omisión:** deja fuera una excepción o condición relevante.\n**Inferencia como hecho:** convierte una explicación posible en afirmación confirmada."
+      },
+      {
+       "t": "p",
+       "x": "**Comprueba:** fuentes originales, cifras y fórmulas, vigencia, responsables, destinatarios, condiciones y diferencia entre hechos e hipótesis. A mayor impacto, mayor revisión humana."
+      },
+      {
+       "t": "p",
+       "x": "**Método SAVI:** **Pedir → Revisar → Abrir fuentes → Ajustar → Utilizar**."
+      }
+     ]
+    },
+    {
+     "id": "cinco-habitos-para-experimentar",
+     "name": "Cinco hábitos para experimentar",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "ol",
+       "items": [
+        "Resume un hilo antes de releerlo entero; entra luego al detalle.",
+        "Pide un borrador en lugar de empezar de cero.",
+        "Transforma notas en un email, reuniones en un briefing, informes en una presentación o datos en gráficos.",
+        "Busca información con referencias y comprueba los originales.",
+        "Pide objeciones: «¿Qué debilidades tiene esta propuesta? ¿Qué alternativas explican el resultado?»."
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "Tres ejercicios voluntarios sin datos sensibles"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "**Precisión:** resume una página de texto en cinco puntos sin añadir hechos.",
+        "**Transformación:** convierte notas ficticias en un email profesional.",
+        "**Verificación:** consulta un documento autorizado y abre las fuentes que sustentan la respuesta."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Cierre:** empieza por una tarea habitual. Prueba, verifica y mejora tus instrucciones. El objetivo no es usar IA para todo, sino descubrir dónde ayuda a trabajar mejor.",
+       "role": "note",
+       "tone": "accent"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "library": [
+  {
+   "t": "prompt",
+   "title": "Encontrar un correo",
+   "group": "Correo",
+   "app": "Copilot Chat",
+   "x": "Busca el correo en el que [persona] me habló de [tema] durante las últimas semanas. Dime fecha, asunto y qué pedía.",
+   "tip": "No hace falta recordar el asunto exacto: describe lo que recuerdas."
+  },
+  {
+   "t": "prompt",
+   "title": "Resumir un hilo largo",
+   "group": "Correo",
+   "app": "Outlook",
+   "x": "Resume este hilo. Identifica: 1) solicitud exacta del cliente, 2) compromisos que hemos asumido, 3) fechas mencionadas, 4) preguntas sin respuesta y 5) siguiente acción recomendada. Distingue hechos del hilo de tus recomendaciones.",
+   "tip": "Abre el correo y pulsa «Resumir por Copilot». Comprueba fechas y compromisos en los mensajes originales."
+  },
+  {
+   "t": "prompt",
+   "title": "Redactar y mejorar un email",
+   "group": "Correo",
+   "app": "Outlook",
+   "x": "Convierte estas notas en un email profesional, cercano y breve para un cliente. Conserva cualquier cifra, fecha o condición tal cual. No añadas compromisos nuevos: [pega tus notas]",
+   "tip": "En un correo nuevo usa «Redactar con Copilot». Puedes ajustar el tono (más formal, más corto…)."
+  },
+  {
+   "t": "prompt",
+   "title": "Prepararte antes de la reunión",
+   "group": "Reuniones",
+   "app": "Outlook",
+   "x": "Prepárame para la reunión con [cliente] de hoy. Resume los últimos acuerdos, tareas pendientes, cuestiones que probablemente debamos resolver y documentos relevantes. Para cada punto, cita la fuente. No añadas hechos no documentados.",
+   "tip": "Desde el evento del calendario. Depende de que haya correos y documentos relacionados."
+  },
+  {
+   "t": "prompt",
+   "title": "Resumir o revisar un documento",
+   "group": "Documentos",
+   "app": "Word",
+   "x": "Resume este procedimiento en: objetivo, requisitos previos, pasos, excepciones, puntos de control y escalación. Después identifica cualquier instrucción que parezca contradictoria o ambigua, pero no la corrijas sin marcarla.",
+   "tip": "Copilot propone, tú decides: compara antes de reemplazar."
+  },
+  {
+   "t": "prompt",
+   "title": "Reescribir para otro público",
+   "group": "Documentos",
+   "app": "Word",
+   "x": "Reescribe esta sección para un cliente no técnico. Mantén todos los hechos, fechas, cifras y condiciones; elimina redundancias; usa un tono profesional y claro. No añadas compromisos que no figuren en el original.",
+   "tip": "Selecciona el texto y pulsa Copilot."
+  }
+ ]
+}

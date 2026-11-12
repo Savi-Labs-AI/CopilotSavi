@@ -1,0 +1,36 @@
+{
+  "_ayuda": "Orden = orden del selector. default = idioma inicial en cuanto su traducción exista y esté validada; fallback = idioma activo mientras tanto (hoy, español). Un idioma está disponible cuando existen data/content.<code>.json (o el maestro, para es) y i18n/ui.<code>.json. El tagline corporativo no se traduce: está fijo en inglés en la plantilla.",
+  "default": "en",
+  "fallback": "es",
+  "languages": [
+    {
+      "code": "en",
+      "native": "English",
+      "short": "EN"
+    },
+    {
+      "code": "es",
+      "native": "Español",
+      "short": "ES"
+    },
+    {
+      "code": "it",
+      "native": "Italiano",
+      "short": "IT"
+    },
+    {
+      "code": "de",
+      "native": "Deutsch",
+      "short": "DE"
+    },
+    {
+      "code": "pl",
+      "native": "Polski",
+      "short": "PL"
+    }
+  ],
+  "brand": {
+    "tagline": "Digitize your incentives in a phygital world",
+    "translate": false
+  }
+}

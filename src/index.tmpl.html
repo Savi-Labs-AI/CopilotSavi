@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es" data-lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0F2629">
+<title>Copilot with savi</title>
+<meta name="description" content="">
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+<div class="app">
+<a class="skip" href="#app" data-i18n="skip">Saltar al contenido</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <img class="logo" src="{{LOGO}}" alt="savi">
+    <span class="prod"><span data-i18n="productPrefix">Copilot con</span> <span class="savi">savi</span></span>
+    <div class="top-actions">
+      <button type="button" class="searchbtn" data-search-open>
+        <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z M20 20l-4-4"/></svg>
+        <span class="lbl" data-i18n="searchOpen">Busca una aplicación, un caso o un prompt</span>
+      </button>
+      <!-- Selector de idioma: el menú lo pinta app.js a partir de #i18n (languages.json) -->
+      <div class="lang" id="lang">
+        <button type="button" class="lang-btn" id="lang-btn" aria-haspopup="true" aria-expanded="false" aria-controls="lang-menu" aria-label="Idioma">
+          <svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z M3 12h18 M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9 M12 3c-2.5 2.7-3.8 5.7-3.8 9s1.3 6.3 3.8 9"/></svg>
+          <span class="lang-code">ES</span>
+          <svg class="ic lang-chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <ul class="lang-menu" id="lang-menu" role="menu" aria-label="Seleccionar idioma"></ul>
+      </div>
+    </div>
+  </div>
+  <div class="wrap tabs-wrap">
+    <nav class="tabs" role="tablist" id="tabs" aria-label="Secciones" data-i18n-aria="sectionsAria"></nav>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="foot dark">
+  <div class="wrap foot-in">
+    <img src="{{LOGO}}" alt="savi">
+    <div>
+      <p data-i18n="footerNote">Las pantallas, botones y funciones pueden variar según la aplicación, versión, dispositivo, licencia y políticas corporativas.</p>
+      <p><span data-i18n="footerMadeBy">Hecho por</span> <span class="savi">savi</span> · <!-- Tagline corporativo: se mantiene en inglés en los cinco idiomas (no traducir) --><span class="tag" lang="en" translate="no">Digitize your incentives in a phygital world</span></p>
+    </div>
+  </div>
+</footer>
+</div>
+
+<div id="search-root"></div>
+<p class="sr-only" aria-live="polite" id="live"></p>
+
+{{CONTENTS}}
+<script id="i18n" type="application/json">{{I18N}}</script>
+<script id="video-config" type="application/json">{{VIDEO}}</script>
+<script>
+const ASSETS = {{ASSETS}};
+{{JS}}
+</script>
+</body>
+</html>

@@ -1,0 +1,1285 @@
+{
+ "sections": [
+  {
+   "id": "descubre",
+   "num": "01",
+   "title": "Discover Copilot",
+   "chunks": [
+    {
+     "heading": "Copilot works with you. And you already have it.",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Artificial intelligence is already part of our work environment at SAVI."
+      },
+      {
+       "t": "p",
+       "x": "With Microsoft 365 Copilot you can find information, summarize conversations, prepare documents, analyze data and make better use of your meetings, using the tools you already know."
+      },
+      {
+       "t": "p",
+       "x": "**You don’t need to be an AI expert. You just need to know where to start.**"
+      }
+     ],
+     "key": "hero"
+    },
+    {
+     "heading": "What is Microsoft 365 Copilot?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "It is an artificial intelligence assistant built into Microsoft 365 applications and also available from its own app. It can work with the context of your professional environment: emails, meetings, conversations and documents you have access to, depending on the enabled sources and features."
+      }
+     ],
+     "key": "what"
+    },
+    {
+     "heading": "What can you do with it?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Find information.** Locate conversations, decisions and documents related to your projects.\n*Example:* “What did we agree with this client about the next campaign?”"
+      },
+      {
+       "t": "p",
+       "x": "**Get more from your meetings.** In Teams you can transcribe meetings when authorized; Copilot can use the available information to summarize topics, identify decisions, organize pending items and prepare follow-up emails.\n*Example:* “Summarize this sales meeting; identify agreements and owners, and draft a follow-up.”"
+      },
+      {
+       "t": "p",
+       "x": "**Summarize what matters.** Turn long emails, conversations and documents into clear summaries.\n*Example:* “Summarize this thread and highlight the open items.”"
+      },
+      {
+       "t": "p",
+       "x": "**Prepare content.** Create drafts of emails, documents, proposals and presentations to review and personalize.\n*Example:* “Prepare an update email about this campaign.”"
+      },
+      {
+       "t": "p",
+       "x": "**Analyze and explore.** Compare results, identify trends, research markets and discover potential opportunities.\n*Example:* “Compare the participation results for these weeks.”"
+      }
+     ],
+     "key": "capabilities"
+    },
+    {
+     "heading": "Where can you find Copilot?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Copilot app:** open [copilot.cloud.microsoft](https://copilot.cloud.microsoft/) with your SAVI work account; check that you can actually access it from the corporate environment. It may also be available as a desktop app."
+      },
+      {
+       "t": "p",
+       "x": "**Inside the apps:** Outlook, Teams, Word, Excel, PowerPoint and other Microsoft 365 tools include Copilot experiences. You can ask for help while you work."
+      },
+      {
+       "t": "p",
+       "x": "Can’t see Copilot? Make sure you are signed in with your work account and contact IT if it still does not appear."
+      }
+     ],
+     "key": "where"
+    },
+    {
+     "heading": "How does it connect with your work?",
+     "blocks": [
+      {
+       "t": "ul",
+       "items": [
+        "**Microsoft 365:** Outlook emails, Teams meetings and conversations, OneDrive and SharePoint files, depending on access and features.",
+        "**Internet:** public information for research, when the tool allows searching the web.",
+        "**What you provide:** documents, text, files and specific references."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Important:** Copilot does not automatically access everything in SAVI. It respects corporate permissions, but it does not fix misconfigured permissions. With our current setup, you should not assume that Salesforce, Jira or Offer Manager are automatically connected.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ],
+     "key": "connect"
+    },
+    {
+     "heading": "Copilot helps. You decide.",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "AI can speed up tasks, but it can also make mistakes, omit information or misinterpret a piece of data. Before using an answer with a client or making a decision, check the sources and review the results."
+      },
+      {
+       "t": "p",
+       "x": "**Copilot does not replace your experience or professional judgment. It complements them.**"
+      }
+     ],
+     "key": "control"
+    },
+    {
+     "heading": "Where do you want to start?",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Copilot in your day-to-day work:** apps, instructions and prompts.\n**Copilot in your department:** real cases related to your team’s work."
+      }
+     ],
+     "key": "start",
+     "targets": [
+      "dia",
+      "depto"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dia",
+   "num": "02",
+   "title": "Copilot in your day-to-day work",
+   "intro": {
+    "heading": "The tools you already use, now with AI",
+    "blocks": [
+     {
+      "t": "p",
+      "x": "Copilot is built into several of the applications we use every day at SAVI. Select an application to find out what you can do, how to get started and which instructions to try. **Screens and buttons may vary depending on the version available**."
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "copilot-app",
+     "name": "Copilot App",
+     "tagline": "Your entry point to connected work",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "The Microsoft 365 Copilot app lets you ask questions, create content and retrieve information from different tools in one place. You can find an Outlook email, information related to a Teams meeting or a SharePoint file without having to search each application manually."
+      },
+      {
+       "t": "p",
+       "x": "**What you can do**"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Search for emails, documents, conversations and meetings available to you.",
+        "Retrieve agreements, dates and pending tasks for a campaign.",
+        "Prepare meetings with context and discovery questions.",
+        "Organize priorities based on documented commitments.",
+        "Write, translate and transform content; access agents and research."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**How to get started**"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "Open Microsoft 365 Copilot with your SAVI account.",
+        "When you search for corporate information, use the work context/Work IQ if that control is available.",
+        "State the client, project and period; then ask your question.",
+        "Check the sources before relying on the results."
+       ]
+      },
+      {
+       "t": "prompt",
+       "x": "Search for information related to [campaign] over the last 30 days in the Microsoft 365 sources I have access to. Summarize confirmed agreements, pending tasks, owners and committed dates. Include references to emails, meetings or documents. If any information is missing, say so.",
+       "title": "Retrieve information about a campaign"
+      },
+      {
+       "t": "prompt",
+       "x": "I am meeting with [client]. Prepare a briefing with recent interactions, previous agreements, concerns raised, pending topics and five discovery questions. Separate facts from suggestions and cite the sources.",
+       "title": "Prepare a sales meeting"
+      },
+      {
+       "t": "prompt",
+       "x": "Review the commitments and dates documented in my emails and meetings this week. Suggest priorities, explain why and cite the sources. Do not assume dates or responsibilities.",
+       "title": "Organize my priorities"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** if Copilot does not find something, that does not mean it does not exist. The answer depends on sources, permissions, indexing and configuration.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "outlook",
+     "name": "Outlook",
+     "tagline": "Less time managing email",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot helps you understand threads, write replies, improve tone, translate communications, prepare meetings and, in some versions, prioritize new messages."
+      },
+      {
+       "t": "p",
+       "x": "**What you can do**"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Summarize a long conversation and extract requests and commitments.",
+        "Draft replies, new emails and shorter or more formal versions.",
+        "Translate messages while keeping names, figures and conditions.",
+        "Prepare for meetings using your calendar, emails and available files.",
+        "Explore “Prioritize my inbox” if IT has enabled it; the classification applies to new messages after the feature is turned on."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**How to summarize an email:** open the thread, select Copilot’s summarize function, read the key points and check the original content when there is sensitive data or commitments."
+      },
+      {
+       "t": "p",
+       "x": "**How to prepare a reply:** open the message, select Reply and use the Copilot drafting tools available; explain your intent and tone, insert the draft if appropriate and review it before sending. Automatic reference to the thread varies by client and workflow: do not assume it always happens.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Summarize this thread. Identify the client’s original request, our replies, confirmed agreements, dates and pending items. Finish with next actions. Do not confuse proposals with confirmed commitments.",
+       "title": "Summarize a thread"
+      },
+      {
+       "t": "prompt",
+       "x": "Write a professional, friendly reply for this client. Confirm receipt, explain what we are reviewing and mention only the next steps already agreed. Do not add commitments or deadlines that are not confirmed.",
+       "title": "Draft a professional reply"
+      },
+      {
+       "t": "prompt",
+       "x": "Make this draft clearer, more persuasive and focused on value for the client. Keep all figures and conditions. Provide a short version and a fuller one; do not invent benefits or results.",
+       "title": "Improve a sales email"
+      },
+      {
+       "t": "prompt",
+       "x": "Translate this message into the recipient’s language using a natural, professional tone. Keep the original names, figures, dates and conditions.",
+       "title": "Translate"
+      },
+      {
+       "t": "p",
+       "x": "**Explore — Prioritize the inbox:** “Treat as priority the messages that require action on active campaigns, important incidents, client deliverables or upcoming deadlines.” The feature depends on availability; it does not replace protocols or SLAs.",
+       "role": "note",
+       "tone": "explore"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** check recipients, figures, dates, conditions and commitments; you are responsible for sending.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "teams",
+     "name": "Teams",
+     "tagline": "Meetings, chats, channels and agents",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Teams brings together conversations, decisions, files and coordination. Copilot can help retrieve information from accessible chats and channel threads, support meetings and prepare follow-up. **This does not mean it automatically reviews all historical messages in a channel**."
+      },
+      {
+       "t": "p",
+       "x": "**What you can do**"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "Prepare for a meeting; catch up if you join late.",
+        "Review what was discussed in a meeting and summarize decisions.",
+        "Transcribe meetings when authorized, without having to record the video.",
+        "Draft meeting minutes, actions, owners and follow-up emails.",
+        "Summarize accessible chats and channel threads.",
+        "Explore channel agents when IT enables that specific experience; do not equate these agents with Agent Builder."
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "Main case: sales meeting with a client"
+      },
+      {
+       "t": "p",
+       "x": "**1. Before — prepare**: retrieve previous agreements, client concerns and open items."
+      },
+      {
+       "t": "prompt",
+       "x": "Prepare me for my next meeting with [client]. Summarize recent agreements, pending items and documented commitments; suggest points that should be clarified. Cite sources and separate recommendations from facts."
+      },
+      {
+       "t": "p",
+       "x": "**2. During — listen**: if authorized, start the transcription from the meeting controls. You can consult Copilot during certain meetings even without transcribing them. The menu location and available features vary."
+      },
+      {
+       "t": "prompt",
+       "x": "Summarize the topics covered so far. Separate confirmed decisions, proposals that are still open and pending questions."
+      },
+      {
+       "t": "p",
+       "x": "**3. After — turn it into actions**: use the recap and accessible content, ideally a transcript when you need to check specific statements."
+      },
+      {
+       "t": "prompt",
+       "x": "Analyze this sales meeting. Summarize topics, confirmed agreements, tasks, owners, dates and open questions. Separate decisions from proposals. If something was not mentioned, write “Not specified” and cite the available evidence."
+      },
+      {
+       "t": "p",
+       "x": "**4. Follow-up — email**:"
+      },
+      {
+       "t": "prompt",
+       "x": "Write a follow-up email for [client] based only on confirmed agreements. Include thanks, decisions and next steps; do not add new commitments."
+      },
+      {
+       "t": "p",
+       "x": "**5. Sales insight — understand the needs**:"
+      },
+      {
+       "t": "prompt",
+       "x": "Analyze this meeting with [client] from a sales perspective. Identify objectives, pain points, frustrations, stated needs, potential needs, opportunities worth exploring and questions for the next meeting. Clearly differentiate facts, inferences and hypotheses. Do not claim that SAVI can offer a solution without documentation of our portfolio. Quote excerpts from the meeting where possible."
+      },
+      {
+       "t": "prompt",
+       "x": "Summarize the accessible messages in this Customer Care thread. Identify incidents handled, confirmed solutions and pending topics. Cite the relevant messages. Do not assume you have access to all conversations in the channel.",
+       "title": "Explore — chats and channels"
+      },
+      {
+       "t": "prompt",
+       "x": "I have just joined this meeting. What decisions have been made so far and which points are still open?"
+      },
+      {
+       "t": "p",
+       "x": "**Explore — Teams agents:** when enabled, channel-specific agents can assist with queries and follow-ups; their availability and actions depend on IT. We go deeper in section 04.",
+       "role": "note",
+       "tone": "explore"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** notices and transcription policies for external clients; a summary does not replace written agreements. A transcript is not a universal requirement for every summary, but it is usually useful for checking what was said afterwards.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "excel",
+     "name": "Excel",
+     "tagline": "From data to conclusions",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot in Excel can help create and explain formulas, calculate variations, analyze trends, generate charts and pivot tables, and sort data."
+      },
+      {
+       "t": "p",
+       "x": "**How to get started:** open a workbook with clear data and headers; select Copilot; explain the calculation or chart; review formulas, ranges and results.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "In this table, create a column that calculates the percentage change versus the previous period. Explain the formula to me and how it handles blanks and division by zero.",
+       "title": "Growth formula"
+      },
+      {
+       "t": "prompt",
+       "x": "Compare entries for [month A] and [month B] by campaign. Calculate absolute and percentage change, identify the most relevant changes and show a summary table. Explain the method.",
+       "title": "Compare campaigns"
+      },
+      {
+       "t": "prompt",
+       "x": "Generate a chart of weekly entries by campaign using this table. Include a title, axes and a legible legend.",
+       "title": "Chart"
+      },
+      {
+       "t": "prompt",
+       "x": "Create a pivot table that groups entries by campaign and week and shows totals and change between periods. Describe the fields used.",
+       "title": "Pivot table"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** verify every calculation and the definition of the KPIs. The former `=COPILOT()` cell function was withdrawn in September 2026; this does not mean that Copilot in Excel has disappeared.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "word",
+     "name": "Word",
+     "tagline": "From scattered information to professional documents",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Create drafts, summarize, reorganize, improve text, translate documents and use available sources from emails or meetings to prepare content (depending on capabilities and access)."
+      },
+      {
+       "t": "p",
+       "x": "**How to get started:** open Word; request a new document or select text; provide sources and structure; review the draft.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Based on the available information from this sales meeting with [client], create a document with context, objectives, confirmed agreements, stated needs, commercial hypotheses, next steps and owners. Do not invent commitments; cite sources when available.",
+       "title": "From meeting to briefing"
+      },
+      {
+       "t": "prompt",
+       "x": "Using this approved briefing, write a first draft of a proposal: context, objectives, needs, proposed solution, potential benefits and next steps. Mark [TO BE CONFIRMED] wherever prices, deadlines, scope or documented capabilities are missing.",
+       "title": "Sales proposal"
+      },
+      {
+       "t": "prompt",
+       "x": "Review this procedure and identify ambiguous instructions, insufficient steps and contradictions. Indicate the section and a suggested improvement without altering the original conditions.",
+       "title": "Review a procedure"
+      },
+      {
+       "t": "prompt",
+       "x": "Translate this section into [language] using promotional marketing terminology. Keep figures, dates, conditions and formatting. Flag doubtful terms for human review.",
+       "title": "Translate a document"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** contracts, legal terms and official procedures require competent validation. A draft is not the same as an approved document.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "powerpoint",
+     "name": "PowerPoint",
+     "tagline": "From documents to presentations",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot can generate first slides, structure narratives, make use of existing documents, summarize presentations and improve text and design. The result needs editing and brand adaptation."
+      },
+      {
+       "t": "h3",
+       "x": "Highlighted cross-app flow"
+      },
+      {
+       "t": "p",
+       "x": "**Outlook or Teams → verified summary → Word/briefing → PowerPoint**. Meetings and emails can provide the context; do not promise that any transcript turns into a presentation automatically with one click."
+      },
+      {
+       "t": "p",
+       "x": "**How to get started:** open PowerPoint; select creation with Copilot; reference an approved document or describe the objective and audience; review and adapt.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Create an eight-slide presentation based on this approved document: client context, objectives, challenges, opportunities, solution, potential benefits, next steps and conclusion. Do not invent figures or features.",
+       "title": "Sales presentation"
+      },
+      {
+       "t": "prompt",
+       "x": "Turn this report into six executive slides covering objectives, mechanics, main KPIs, performance, learnings and recommendations. Use only documented data, and charts where they add clarity.",
+       "title": "Campaign results"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** confirm the narrative, content, figures and branding before presenting to clients.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "sharepoint",
+     "name": "SharePoint",
+     "tagline": "Find and organize shared content",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "It lets you search content and, depending on configuration and permissions, create or manage files and some SharePoint elements. A create/move files demo has already been shown at SAVI; that does not mean it is universally available."
+      },
+      {
+       "t": "p",
+       "x": "**How to get started:** go to the relevant site/library; check whether Copilot appears; specify your request; ask for a proposal before applying changes.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Search this space for the documents of [campaign]: briefing, approved proposal, terms and conditions, and reports. Tell me which versions you find and their references, without assuming that the most recent one is the officially valid one.",
+       "title": "Find documentation"
+      },
+      {
+       "t": "prompt",
+       "x": "Review this library and propose a structure by document type. List what you would move and where. Do not apply any changes until I confirm.",
+       "title": "Reorganize without changing anything yet"
+      },
+      {
+       "t": "prompt",
+       "x": "Propose the initial structure for the [project] folder: briefing, proposal, legal, deliverables and reporting. Show me the plan before creating or moving any files.",
+       "title": "Folder structure"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** renaming or moving shared resources affects colleagues and processes; check permissions and dependencies.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    },
+    {
+     "id": "onedrive",
+     "name": "OneDrive",
+     "tagline": "Summarize and compare files",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "It lets you summarize documents, ask questions about them and **compare up to five selected files**, when the experience is compatible and accessible."
+      },
+      {
+       "t": "p",
+       "x": "**How to get started:** select documents; open the Copilot features available in OneDrive or reference the files from the Copilot app; review and check the sources.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Compare these documents on dates, eligibility, mechanics, prizes, limits, obligations and exceptions. Generate a table with topic, version A, version B, potential impact and a reference to the document/section. Do not decide which version is official without evidence.",
+       "title": "Comparison of promotion terms and conditions"
+      },
+      {
+       "t": "prompt",
+       "x": "Summarize this document: objective, requirements, conditions, exceptions and control points. Do not add information that is not there.",
+       "title": "Summarize a document"
+      },
+      {
+       "t": "p",
+       "x": "**Keep in mind:** comparing versions does not by itself determine which one is officially approved.",
+       "role": "callout",
+       "tone": "info"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "depto",
+   "num": "03",
+   "title": "Copilot in your department",
+   "intro": {
+    "heading": null,
+    "blocks": [
+     {
+      "t": "p",
+      "x": "Every team has different tasks. Choose your department, explore examples and adapt the prompts to your projects. Here we show **applied cases**; we do not repeat interface tutorials."
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "comercial",
+     "name": "Sales",
+     "tagline": "From conversations to opportunities",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot can help you get to know the client, research their market, analyze pain points and formulate commercial hypotheses. Its value is not only productivity, but better preparation to uncover opportunities to create value."
+      },
+      {
+       "t": "h3",
+       "x": "Featured case — Meeting → opportunity → proposal"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "**Prepare (Copilot App / Outlook):** retrieve history, agreements, concerns and pending questions.",
+        "**Listen and understand (Teams):** use the transcript when authorized; identify objectives, problems and objections.",
+        "**Detect (Copilot App / Researcher):** separate explicit needs from hypotheses; research if necessary.",
+        "**Propose (Word):** draft a briefing and link opportunities to documented, real SAVI services.",
+        "**Present (PowerPoint):** turn the reviewed briefing into slides and prepare the follow-up."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Conceptual example:** if a client says they do not know whether their consumers buy again, the need to measure repeat purchase is supported; a loyalty mechanic could be a commercial hypothesis, not a confirmed solution. Research before proposing.",
+       "role": "note",
+       "tone": "example"
+      },
+      {
+       "t": "p",
+       "x": "From competitor analysis to strategy, including what the client says."
+      },
+      {
+       "t": "card",
+       "title": "Research a prospect",
+       "app": "Researcher",
+       "x": "Research [company] to prepare a possible collaboration in promotional marketing and loyalty. Include profile, main brands, recent initiatives, facts backed by sources and possible opportunities. Clearly separate hypotheses from confirmed needs.",
+       "tip": "A commercial hypothesis is not a confirmed need."
+      },
+      {
+       "t": "card",
+       "title": "Meeting briefing",
+       "app": "Chat",
+       "x": "I am meeting with [client]. Gather the available context of our relationship: background, agreements, concerns raised, pending topics and five discovery questions. Cite the sources. Separate facts from recommendations.",
+       "tip": "Always ask for citations."
+      },
+      {
+       "t": "card",
+       "title": "Find and compare competitors",
+       "app": "Researcher",
+       "x": "Research the relevant competitors of [company] in [market], their recent promotion and loyalty initiatives and differences in positioning. Present a table with sources and dates; separate verified data from your inferences.",
+       "tip": "Check the sources it cites before using them in a proposal."
+      },
+      {
+       "t": "card",
+       "title": "Improve an email for the client",
+       "app": "Outlook",
+       "x": "Improve this email for [client]: make it clear, friendly and value-oriented. Keep figures, conditions and dates. Provide a short version and a fuller one; do not invent benefits or commitments.",
+       "tip": "Check that the tone fits your relationship with the client."
+      },
+      {
+       "t": "card",
+       "title": "Detect client needs",
+       "app": "Teams / Chat",
+       "x": "Analyze the available transcript of the meeting with [client]. Identify objectives, pain points, objections, stated needs and potential needs. For each point provide evidence or mark it [HYPOTHESIS]. Also flag what we should validate with the client.",
+       "tip": "Works best if the meetings were transcribed. A deduced need must be confirmed with the client."
+      },
+      {
+       "t": "card",
+       "title": "Create a strategy from the conversations",
+       "app": "Chat / Researcher",
+       "x": "Based on documented needs of [client] and relevant external sources, propose three commercial lines we could explore. For each one: problem, evidence, possible SAVI response only if it is documented in our portfolio, risks and open questions. Separate facts from hypotheses.",
+       "tip": "It is a starting point for thinking, not a closed strategy. Validate it with your team."
+      },
+      {
+       "t": "card",
+       "title": "First draft of a proposal",
+       "app": "Word",
+       "x": "Using the approved commercial briefing, write a draft proposal in Word: context, objectives, needs, solution, potential benefits and next steps. Do not invent prices or deadlines; use [TO BE CONFIRMED] where information is missing.",
+       "tip": "Check scope and price."
+      },
+      {
+       "t": "card",
+       "title": "From document to presentation",
+       "app": "PowerPoint",
+       "x": "Turn this approved document into eight sales slides, connecting client problems with documented SAVI solutions. Do not invent data, results or testimonials.",
+       "tip": "Check branding and figures."
+      }
+     ]
+    },
+    {
+     "id": "customer-success",
+     "name": "Customer Success",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Less time reading threads, more time with the client."
+      },
+      {
+       "t": "card",
+       "title": "Review long threads",
+       "app": "Outlook",
+       "x": "Summarize this thread as: client request, our response, commitments, pending items and next action.",
+       "tip": "Check the commitment against the email."
+      },
+      {
+       "t": "card",
+       "title": "Prepare the client meeting",
+       "app": "Outlook / Chat",
+       "x": "Reconstruct the context of [client] over the last 30 days with sources: decisions, open tasks and unresolved matters.",
+       "tip": "Depends on your permissions and available content."
+      },
+      {
+       "t": "card",
+       "title": "Minutes with actions",
+       "app": "Teams",
+       "x": "Based on the accessible content of this meeting, create meeting minutes with confirmed decisions, tasks, owner and date. Write “Not specified” when any is missing and include available evidence or reference.",
+       "tip": "To check precisely what was said afterwards, use an available transcript when authorized; the options depend on your Teams configuration."
+      },
+      {
+       "t": "card",
+       "title": "Campaign status",
+       "app": "Notebook",
+       "x": "Based exclusively on the available sources for [campaign], prepare a campaign status with progress, decisions, incidents, pending items and contradictions, citing the documents. Do not replace the official reporting systems.",
+       "tip": "It does not replace the official tracking tool."
+      }
+     ]
+    },
+    {
+     "id": "customer-care-call-center",
+     "name": "Customer Care / Call Center",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Support for the agent, not automatic replies to the consumer."
+      },
+      {
+       "t": "card",
+       "title": "Prepare a reply to the consumer",
+       "app": "Chat / Agent",
+       "x": "The consumer asks: “[query]”. Search only the approved documentation of promotion [X]. State the applicable answer, cite the exact condition and flag any information that must be confirmed before replying. Do not invent exceptions.",
+       "tip": "No consumer personal data in the prompt."
+      },
+      {
+       "t": "card",
+       "title": "Promotion conditions",
+       "app": "Chat",
+       "x": "According to the conditions of [promotion], prepare a reply to the consumer. Cite the clause and flag what information is missing.",
+       "tip": "Review tone and personal data."
+      },
+      {
+       "t": "card",
+       "title": "Summarize a complaint",
+       "app": "Outlook",
+       "x": "Summarize this complaint: reason, history, what the consumer is asking for and what should be escalated.",
+       "tip": "Complaints are escalated according to the protocol."
+      },
+      {
+       "t": "card",
+       "title": "Follow up on incidents in Teams",
+       "app": "Teams",
+       "x": "Summarize the accessible messages in this Customer Care thread, identifying incidents, confirmed solutions and pending topics. Cite the relevant messages; do not assume you have the whole channel.",
+       "tip": "Accessible thread ≠ complete channel history."
+      },
+      {
+       "t": "card",
+       "title": "Explore mailbox statistics",
+       "app": "Copilot App / Agent",
+       "x": "For the mailbox [mailbox] and the period [dates], identify what volume, recurring subjects and data you can verify with the available sources. Separate verified figures from metrics that would require a complete extraction. Do not calculate SLA, backlog or response times without sufficient data and methodology.",
+       "tip": "Official metrics require definitions and complete records."
+      }
+     ]
+    },
+    {
+     "id": "operaciones-y-validacion",
+     "name": "Operations & Validation",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "The safest cases: retrieving procedures and comparing versions."
+      },
+      {
+       "t": "card",
+       "title": "Validity conditions",
+       "app": "Chat / Word",
+       "x": "Based exclusively on the documents provided, state the conditions an entry must meet to be valid. For each condition cite the document and section. If two sources contradict each other, do not choose one: point out the contradiction.",
+       "tip": "Never ask it to “decide” whether an entry is valid without saying which document governs."
+      },
+      {
+       "t": "card",
+       "title": "Compare versions of terms and conditions",
+       "app": "OneDrive",
+       "x": "Compare these documents only on conditions, deadlines, exceptions and responsibilities.",
+       "tip": "Check that each version is current."
+      },
+      {
+       "t": "card",
+       "title": "Structure an incident",
+       "app": "Chat",
+       "x": "Organize this incident into: what is happening, who is affected, applicable procedure (with source) and next step. Indicate what information is missing.",
+       "tip": "Copilot proposes; the decision is yours."
+      },
+      {
+       "t": "card",
+       "title": "Procedures agent",
+       "app": "Agent (future)",
+       "x": "Respond exclusively with the current, approved procedures provided. Cite document and section. If information is missing or there are contradictions, recommend escalating without deciding on your own.",
+       "tip": "Only once versioning and permissions are resolved."
+      }
+     ]
+    },
+    {
+     "id": "finanzas-y-administracion",
+     "name": "Finance & Administration",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot speeds up analysis; accounting controls remain yours."
+      },
+      {
+       "t": "card",
+       "title": "Budget vs actual",
+       "app": "Excel",
+       "x": "Compare budget and actual by category. Calculate absolute and percentage deviation. Sort by financial impact. Show me the formulas or the reasoning before writing conclusions.",
+       "tip": "The workbook and its formulas are the audit source."
+      },
+      {
+       "t": "card",
+       "title": "Possible duplicates",
+       "app": "Excel",
+       "x": "Look for potentially duplicate records using [fields]. Do not delete anything: create a list for review.",
+       "tip": "Always a list to review, never automatic deletion."
+      },
+      {
+       "t": "card",
+       "title": "Monthly anomalies",
+       "app": "Analyst",
+       "x": "Analyze the monthly trend and flag outliers. Distinguish a statistical outlier from a confirmed error.",
+       "tip": "Do not use it as the final financial control."
+      }
+     ]
+    },
+    {
+     "id": "direccion-y-responsables",
+     "name": "Leadership & Managers",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Synthesis of several sources to decide with evidence."
+      },
+      {
+       "t": "card",
+       "title": "Executive summary",
+       "app": "Chat",
+       "x": "Prepare an executive summary of [project/client] for me. Maximum 400 words. Include status, recent decisions, risks, blockers, upcoming dates and decisions that require my involvement. Distinguish facts from inferences and give sources.",
+       "tip": "Check for omissions."
+      },
+      {
+       "t": "card",
+       "title": "Decision with evidence",
+       "app": "Researcher",
+       "x": "Analyze [decision] using internal and external sources separately. Include arguments for and against, uncertainties and missing evidence.",
+       "tip": "Assess the quality of the sources."
+      },
+      {
+       "t": "card",
+       "title": "Plan follow-up",
+       "app": "Planner",
+       "x": "Show me this week’s tasks, priorities and tasks without an owner or date. Do not change anything.",
+       "tip": "Ask it to “not change anything” if you only want to look."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mas",
+   "num": "04",
+   "title": "Take Copilot further",
+   "intro": {
+    "heading": "Discover new possibilities",
+    "blocks": [
+     {
+      "t": "p",
+      "x": "In addition to everyday tasks, Copilot includes capabilities to research, analyze, work with project sources and set up specialized assistants. **Not all of them are automations, and not all are enabled for every user.**"
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "researcher",
+     "name": "Researcher",
+     "tagline": "From a question to a research report",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Researcher helps consult different sources, connect information and write structured reports with references. It can be valuable for prospects, market studies, competitors and promotional trends."
+      },
+      {
+       "t": "p",
+       "x": "**How to get started:** open Microsoft 365 Copilot, find Researcher among the tools/agents available, define the goal, scope and dates, add sources if appropriate; review citations and conclusions.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Research recent trends in loyalty and consumer promotions in the Spanish fast-moving consumer goods (FMCG) market. The goal is to explore opportunities for SAVI. Include trends, recent campaigns, brand strategies, challenges, hypothetical opportunities and questions for the Sales team. Use recent, verifiable sources and separate facts, internal data and interpretations.",
+       "title": "Sales research"
+      },
+      {
+       "t": "p",
+       "x": "**From research to visual material:** once checked, use the report to create a document, presentation or infographic with the Copilot creation tools available. Do not assert that this is a button inside Researcher itself."
+      },
+      {
+       "t": "p",
+       "x": "**Caution:** structured reports can also include incorrect citations, outdated sources or insufficient inferences.",
+       "role": "callout",
+       "tone": "warn"
+      }
+     ]
+    },
+    {
+     "id": "analyst",
+     "name": "Analyst",
+     "tagline": "From Excel to insights",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Analyst helps explore files with data, compare periods, calculate trends and detect anomalies."
+      },
+      {
+       "t": "p",
+       "x": "**How to get started:** find Analyst in Copilot, provide the files, define KPIs, period and analysis method; check calculations and comparability.",
+       "role": "howto"
+      },
+      {
+       "t": "prompt",
+       "x": "Analyze these weekly campaign files. First check that fields and periods are comparable. Calculate the trend in entries, identify the biggest increases and decreases, detect outliers, create a table and suggest charts. Separate observed data from possible explanations. Do not invent causes.",
+       "title": "Campaign results"
+      },
+      {
+       "t": "p",
+       "x": "**Caution:** it does not replace official reporting; KPIs must have common definitions.",
+       "role": "callout",
+       "tone": "warn"
+      }
+     ]
+    },
+    {
+     "id": "notebooks",
+     "name": "Notebooks",
+     "tagline": "A space for each project",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "A Notebook lets you gather specific references — briefing, approved proposal, terms and conditions, meeting minutes, reporting — for queries focused on that project. Continuity depends on the sources added and available; it does not mean unrestricted access to all systems."
+      },
+      {
+       "t": "prompt",
+       "x": "Use only the references in this Notebook for [campaign]. Summarize confirmed decisions, progress, pending matters and contradictions. Cite each source and flag what still needs to be confirmed.",
+       "title": "Prompt"
+      }
+     ]
+    },
+    {
+     "id": "pages",
+     "name": "Pages",
+     "tagline": "From chat to editable content",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Copilot Pages lets you keep an answer so you can edit it and share it in a collaborative space. For example, turning the reviewed conclusions of a sales research into a working document for the team."
+      }
+     ]
+    },
+    {
+     "id": "planner",
+     "name": "Planner",
+     "tagline": "Tasks and follow-up",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Planner features and its agents vary by plan, license and configuration. Do not confuse the Planner agent in Copilot with the experiences built into Planner."
+      },
+      {
+       "t": "prompt",
+       "x": "Show me this week’s high-priority tasks in the Planner plans I have access to. Flag due dates, pending tasks and blockers. Do not make any changes.",
+       "title": "Prompt"
+      }
+     ]
+    },
+    {
+     "id": "agentes",
+     "name": "Agents",
+     "tagline": "Set up a specialized assistant",
+     "blocks": [
+      {
+       "t": "p",
+       "x": "A custom agent incorporates defined instructions, goals and sources to help with repeated tasks. It can deliver more consistent formats, **but it does not guarantee identical or correct answers**. Agent Builder is different from Copilot Studio and from channel-specific agents."
+      },
+      {
+       "t": "h3",
+       "x": "When is it worth creating an agent?"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "A repeated task with stable criteria.",
+        "Frequent questions about the same approved documentation.",
+        "Structured answers for a team.",
+        "Preparing consistent minutes, briefings or drafts."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "For a one-off question, Copilot Chat is usually enough."
+      },
+      {
+       "t": "h3",
+       "x": "SAVI agent ideas"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "**Commercial Meeting Insights Assistant:** analyzes meetings, pain points, hypotheses and follow-up.",
+        "**Customer Care procedures assistant:** consults terms and conditions and prepares drafts with references.",
+        "**Campaign status assistant:** structures summaries using project documents.",
+        "**Minutes assistant:** decisions, actions, owners and dates.",
+        "**Documentation assistant:** finds information in policies and manuals.",
+        "**Professional emails assistant:** uses a defined format and tone."
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "How to create your first agent with Agent Builder"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "Open Microsoft 365 Copilot and look for create/new agent (if it appears in your environment).",
+        "Define a specific task: “analyze sales meetings” instead of “help me with everything”.",
+        "Write instructions about goals, sources, format, limits and when to flag missing information; add only authorized, current documents.",
+        "Test at least five representative situations, including ambiguous and contradictory cases; check sources and output.",
+        "Save and share only with authorized users. Check separately the permissions of the agent and of the associated documents."
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "Example agent — Commercial Meeting Insights Assistant"
+      },
+      {
+       "t": "p",
+       "x": "**Objective:** support the Sales team in interpreting meetings, detecting needs and preparing follow-up, without inventing facts.",
+       "role": "note",
+       "tone": "accent"
+      },
+      {
+       "t": "prompt",
+       "x": "You are a sales meeting analysis assistant for SAVI, a company that provides promotional marketing and loyalty solutions. When the user provides a transcript, notes or accessible references: (1) identify context and objectives; (2) summarize the needs expressed; (3) identify pain points and objections; (4) distinguish explicit needs from potential hypotheses; (5) explore sales opportunities only if there is sufficient documentation of the SAVI portfolio; (6) list confirmed agreements; (7) propose next steps and follow-up questions. Always return: Executive summary; Client objectives; Pain points; Potential needs; Opportunities to explore; Agreements; Next actions and owners; Questions for the next meeting. Cite available sources and separate CONFIRMED FACT, INFERENCE and HYPOTHESIS. Do not invent dates, agreements, needs, owners or SAVI capabilities. When information is missing, state “TO BE CONFIRMED”.",
+       "title": "Full instructions to copy into the agent builder"
+      },
+      {
+       "t": "p",
+       "x": "**Later use:** “Analyze this meeting with [client] and prepare the sales report following your instructions.” The agent needs authorized access to the sources; it is not assumed that it can automatically read any meeting.",
+       "role": "note",
+       "tone": "accent"
+      },
+      {
+       "t": "h3",
+       "x": "Agents in Teams and channels"
+      },
+      {
+       "t": "p",
+       "x": "There are agent experiences specific to Teams channels that can support queries and follow-up where enabled. **Do not claim that any Agent Builder agent can be installed in any channel or automate Customer Care tasks**; check availability and permissions with IT."
+      },
+      {
+       "t": "h3",
+       "x": "Can it automate any task?"
+      },
+      {
+       "t": "p",
+       "x": "No. Reusing instructions and sources is one thing; executing actions, triggering flows, integrating data or modifying external applications is another. Advanced integrations may require Copilot Studio, connectors, additional licenses and IT involvement. Do not assume Salesforce, Jira or Offer Manager are connected by default."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aprende",
+   "num": "05",
+   "title": "Learn to use it well",
+   "intro": {
+    "heading": "The best results start with good instructions",
+    "blocks": [
+     {
+      "t": "p",
+      "x": "You don’t need to know hundreds of prompts. What matters is to explain what you want, provide context and verify the answer."
+     }
+    ]
+   },
+   "subs": [
+    {
+     "id": "como-escribir-un-buen-prompt",
+     "name": "How to write a good prompt",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "ul",
+       "items": [
+        "**Goal:** what you want to achieve.",
+        "**Context:** client, project, period and recipient.",
+        "**Sources:** which email, meeting, document or set of files to use.",
+        "**Instructions:** what to identify, prioritize and avoid.",
+        "**Format:** table, summary, list, email, presentation.",
+        "**Verification:** citations, distinction between facts and hypotheses, and information gaps."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "Not every prompt needs every element."
+      },
+      {
+       "t": "p",
+       "x": "**Not specific enough:** “Summarize this meeting.”",
+       "role": "compare"
+      },
+      {
+       "t": "prompt",
+       "x": "I need to prepare the follow-up for this sales meeting with [client]. Use the accessible transcript and identify confirmed agreements, tasks, owners and dates. Return a table. Separate decisions from open proposals. If there is no owner or date, write “Not specified”. Cite references when available.",
+       "title": "Improved"
+      }
+     ]
+    },
+    {
+     "id": "no-te-quedes-con-la-primera-respuesta",
+     "name": "Don’t settle for the first answer",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Use Copilot conversationally: summarize, ask for more depth, challenge hypotheses and turn the result into a deliverable."
+      },
+      {
+       "t": "p",
+       "x": "**Sales iteration example:**",
+       "role": "note",
+       "tone": "example"
+      },
+      {
+       "t": "ol",
+       "items": [
+        "“Summarize the conclusions of this meeting.”",
+        "“Now identify pain points and needs we should investigate.”",
+        "“Separate confirmed needs from hypotheses and suggest five questions.”",
+        "“Turn the verified conclusions into a briefing for my team.”"
+       ],
+       "role": "convo"
+      },
+      {
+       "t": "p",
+       "x": "**Useful phrases:** “Cite the source”, “Separate facts from recommendations”, “If information is missing, say so”, “Identify contradictions”, “Do not invent figures or commitments”, “Explain the calculation to me”, “What might I be overlooking?”. These phrases **reduce risks; they do not guarantee accuracy**.",
+       "role": "phrases"
+      }
+     ]
+    },
+    {
+     "id": "utiliza-la-informacion-de-forma-responsable",
+     "name": "Use information responsibly",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "Microsoft 365 Copilot includes enterprise data protection. Microsoft states that prompts, responses and associated corporate information are not used to train the foundation models. **This is not the same as having no records**: interactions may be subject to audit, retention and corporate controls."
+      },
+      {
+       "t": "p",
+       "x": "Copilot respects Microsoft 365 permissions, but it does not fix documents that have been shared too broadly. You must follow SAVI’s confidentiality and privacy policies."
+      },
+      {
+       "t": "h3",
+       "x": "Indicative traffic light — PENDING VALIDATION BY IT/DPO",
+       "pending": true
+      },
+      {
+       "t": "p",
+       "x": "**Green:** ordinary work information for which processing is authorized.\n**Amber:** confidential commercial, financial or contractual information, or consumers’ personal data; use only for an authorized purpose, with minimization and controls.\n**Red:** passwords, credentials and any unauthorized information or processing; do not enter excessive data or disclose third-party information.",
+       "tl": [
+        "g",
+        "a",
+        "r"
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Mandatory notice:** this traffic light is a provisional training guide, **not an approved corporate policy**. Until IT/DPO validate it, do not present it as an official rule or suggest that every “green” document is automatically authorized.",
+       "role": "callout",
+       "tone": "warn"
+      },
+      {
+       "t": "p",
+       "x": "**Sharing results:** before distributing a document or report, check that it does not contain information about other clients, projects or people who are not among the recipients."
+      }
+     ]
+    },
+    {
+     "id": "verifica-antes-de-confiar",
+     "name": "Verify before you trust",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "p",
+       "x": "**Invention:** adds something not supported by the source.\n**Omission:** leaves out a relevant exception or condition.\n**Inference as fact:** turns a possible explanation into a confirmed statement."
+      },
+      {
+       "t": "p",
+       "x": "**Check:** original sources, figures and formulas, validity, owners, recipients, conditions and the difference between facts and hypotheses. The greater the impact, the more human review is needed."
+      },
+      {
+       "t": "p",
+       "x": "**SAVI method:** **Ask → Review → Open sources → Adjust → Use**."
+      }
+     ]
+    },
+    {
+     "id": "cinco-habitos-para-experimentar",
+     "name": "Five habits to try out",
+     "tagline": null,
+     "blocks": [
+      {
+       "t": "ol",
+       "items": [
+        "Summarize a thread before rereading it in full; then go into the detail.",
+        "Ask for a draft instead of starting from scratch.",
+        "Turn notes into an email, meetings into a briefing, reports into a presentation or data into charts.",
+        "Search for information with references and check the originals.",
+        "Ask for objections: “What weaknesses does this proposal have? What alternatives could explain the result?”"
+       ]
+      },
+      {
+       "t": "h3",
+       "x": "Three optional exercises without sensitive data"
+      },
+      {
+       "t": "ul",
+       "items": [
+        "**Accuracy:** summarize a page of text in five points without adding facts.",
+        "**Transformation:** turn fictional notes into a professional email.",
+        "**Verification:** consult an authorized document and open the sources that support the answer."
+       ]
+      },
+      {
+       "t": "p",
+       "x": "**Wrap-up:** start with a task you do regularly. Try it, verify it and improve your instructions. The goal is not to use AI for everything, but to find where it helps you work better.",
+       "role": "note",
+       "tone": "accent"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "library": [
+  {
+   "t": "prompt",
+   "title": "Find an email",
+   "group": "Email",
+   "app": "Copilot Chat",
+   "x": "Find the email in which [person] spoke to me about [topic] in recent weeks. Tell me the date, subject and what they were asking.",
+   "tip": "You don’t need to remember the exact subject: describe what you remember."
+  },
+  {
+   "t": "prompt",
+   "title": "Summarize a long thread",
+   "group": "Email",
+   "app": "Outlook",
+   "x": "Summarize this thread. Identify: 1) the client’s exact request, 2) commitments we have made, 3) dates mentioned, 4) unanswered questions and 5) recommended next action. Distinguish facts in the thread from your recommendations.",
+   "tip": "Open the email and select Copilot’s “Summarize” option. Check dates and commitments in the original messages."
+  },
+  {
+   "t": "prompt",
+   "title": "Write and improve an email",
+   "group": "Email",
+   "app": "Outlook",
+   "x": "Turn these notes into a professional, friendly, brief email for a client. Keep any figure, date or condition exactly as is. Do not add new commitments: [paste your notes]",
+   "tip": "In a new email use “Draft with Copilot”. You can adjust the tone (more formal, shorter…)."
+  },
+  {
+   "t": "prompt",
+   "title": "Prepare before the meeting",
+   "group": "Meetings",
+   "app": "Outlook",
+   "x": "Prepare me for today’s meeting with [client]. Summarize the latest agreements, pending tasks, matters we will probably need to resolve and relevant documents. For each point, cite the source. Do not add undocumented facts.",
+   "tip": "From the calendar event. Depends on related emails and documents being available."
+  },
+  {
+   "t": "prompt",
+   "title": "Summarize or review a document",
+   "group": "Documents",
+   "app": "Word",
+   "x": "Summarize this procedure as: objective, prerequisites, steps, exceptions, control points and escalation. Then identify any instruction that seems contradictory or ambiguous, but do not correct it without flagging it.",
+   "tip": "Copilot proposes, you decide: compare before replacing."
+  },
+  {
+   "t": "prompt",
+   "title": "Rewrite for a different audience",
+   "group": "Documents",
+   "app": "Word",
+   "x": "Rewrite this section for a non-technical client. Keep all facts, dates, figures and conditions; remove redundancies; use a professional, clear tone. Do not add commitments that are not in the original.",
+   "tip": "Select the text and click Copilot."
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "mode": "iframe",
+  "src": "https://player.vimeo.com/video/1245900805?badge=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0&dnt=1",
+  "poster": "",
+  "captions": "",
+  "captionsLang": "es",
+  "captionsLabel": "Español",
+  "title": "COPILOT · Vídeo de bienvenida",
+  "duration": "4:34",
+  "_ayuda": "src = URL del reproductor (Vimeo: https://player.vimeo.com/video/ID?...). Si termina en .mp4/.webm se usa <video>; si no, iframe. Para vídeos ocultos de Vimeo añade el parámetro h=... del código de inserción. captions solo aplica a <video> (en Vimeo los subtítulos se gestionan en su panel). Deja src vacío para mostrar el marcador."
+}
